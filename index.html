@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="porftolio, html, css, course">
+    <meta name="description" content="Это сайт портфолио">
+
+    <title>Страница резюме Цой Дмитрия</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="info">
+            <img class="avatar" src="myphoto.jpeg" alt="аватар">
+            <div class="info-text">      
+                <p>Какой-то текст о себе с применением <strong>жирного шрифта</strong> и <em>курсивного шрифта</em>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor pariatur delectus provident fugit in quos dicta doloremque, quo aliquam illo.
+                 </p>
+                <h3>Список социальных сетей</h3>
+                <a href="" target="_blank">Instagram</a> | <a href="" target="_blank">Telegram</a> | <a href="https://vk.com/id605174107" target="_blank">Vkontakte</a>
+            </div>
+        </div>
+
+        <div class="card bg-green">  
+        <h3>Мои хобби</h3>
+        <ol>
+            <li>Компьютеры</li>
+            <li>Музыка</li>
+            <li>Путешествия</li>
+            <li>что-то наверняка еще :)</li>
+        </ol>
+        </div>  
+
+        <div class="card bg-pink">
+        <h3>Опыт работы</h3>
+
+        <table class="table" width="100%" border="1">
+            <thead>
+                <th align="center">Название</th>
+                <th align="center">Должность</th>
+                <th align="center">Год</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>ООО Аврора Холдинг Оверсиз</td>
+                    <td>Руководитель подразделения</td>
+                    <td>2014-настоящее время</td>
+                </tr>
+                <tr>
+                    <td>ТОО Виск Телеком</td>
+                    <td>Менеджер проектов</td>
+                    <td>2010-2014</td>
+                </tr>
+                <tr>
+                    <td>Huawei-Almaty LLP</td>
+                    <td>Datacom Engineer</td>
+                    <td>2009-2010</td>
+                </tr>
+                <tr>
+                    <td>Polikom Pro LLC</td>
+                    <td>Technical Support Specialist</td>
+                    <td>2006-2008</td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+
+        <div class="card bg-yellow">  
+            <h3>Мои сертификаты и курсы</h3>
+            <ul class="course-list">
+                <li>Microsoft Certified Professional</li>
+                <li>Microsoft Certified System Administrator</li>
+                <li>Microsoft Certified System Administrator: Messaging</li>
+            </ul>
+        </div>  
+
+        <form>
+            <h3>Связаться со мной</h3> <!-- Проверяем работу форм -->
+            <div class="bottomRow">
+                <div class="bottomForm">
+                    <label for="textField">Ваше имя:</label>
+                    <input class="nameForm" type="text" id="textField" placeholder="Введите имя">  
+                </div>
+                <div class="bottomForm">
+                    <label for="emailField">Ваш email:</label>
+                    <input class="emailForm" type="email" id="emailField" placeholder="Введите email">  
+                </div>
+            </div>
+
+            <div class="bottomForm">
+                <label for="txtField">Ваше сообщение:</label>
+                <textarea type="message" id="msglField" rows="10" placeholder="Введите сообщение..."></textarea> 
+            </div> 
+
+            <button class="btn" type="submit">Отправить!</button>
+        </form>
+
+    </div>
+</body>
+
+</html>
+
